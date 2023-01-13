@@ -1,0 +1,111 @@
+@font-face {
+   src: url('/resources/Coda-Regular.ttf');
+}
+
+@font-face{
+   src: url('/resources/DreamMMA.TTF');
+}
+
+.text-field{
+	-fx-font: 18px "Coda";
+}
+#snackmon{
+	-fx-font: 80px "Dream MMA";
+	-fx-text-fill: rgb(255,255,255);
+}
+
+#gamePane{
+	-fx-background-color: #f5f1d7;
+}
+
+#pane{
+    -fx-background-image: url("/resources/OtterMainFinal.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 100%;
+    -fx-background-position: center center;
+/*     -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);*/
+}
+
+#MMbkgrd{
+	    -fx-background-image: url("/resources/OtterMain.png");
+ 	   -fx-background-size: 1440 900;
+}
+
+#mapBG{
+	-fx-background-image: url("/resources/water_bright.png");
+}
+
+#gameOver{
+	-fx-background-image: url("/resources/OtterGameOverFinal.png");
+	-fx-background-repeat: stretch;   
+    -fx-background-size: 100%;
+    -fx-background-position: center center;
+}
+
+#button{
+	-fx-font: 30px "Coda";
+	-fx-background-color: transparent;
+	-fx-background-image:url('/resources/buttonLong_beige_pressedBig.png');
+	-fx-background-size: 100% 100%;
+	-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+	-fx-border-radius: 20;
+	-fx-pref-width: 300px;
+	
+}
+
+#baseCol{
+	-fx-background-color: #f5f1d7;
+}
+
+#label{
+	-fx-font: 48px "Coda";
+	-fx-text-fill: rgb(255,255,255);
+}
+
+#label1{
+	-fx-font: 24px "Coda";
+	-fx-text-fill: rgb(255,255,255);
+}
+
+#credits{
+	-fx-font: 18px "Coda";
+ 	-fx-opacity: 1.0;
+	-fx-text-fill: rgb(255,255,255);
+	
+}
+
+#heart{
+	-fx-pref-width: 300px;
+	-fx-pref-height: 300px;
+	-fx-background-image:url('/resources/buttonLong_beige_pressedBig.png');
+}
+
+#playButton {          
+   	-fx-pref-width: 30px;
+	-fx-pref-height: 30px;
+	-fx-background-image:url("/resources/StartIcon.png");
+	-fx-background-size: 100% 100%;
+    -fx-background-color:transparent;
+}
+
+#stopButton {          
+    -fx-pref-width: 30px;
+	-fx-pref-height: 30px;
+	-fx-background-image:url("/resources/StopIcon.png");
+	-fx-background-size: 100% 100%;
+/*	-fx-background-repeat: no-repeat;
+	-fx-background-position: center; */
+    -fx-background-color:transparent;
+}
+
+#overlay{
+	-fx-background-color:rgb(51, 51, 59, 0.6);
+    -fx-background-position: center;
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 100%;
+/*   -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); */ 
+}
+
+.list-view .scroll-bar:vertical {
+    -fx-scale-x: 0;
+}
